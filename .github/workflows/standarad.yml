@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  lint-build-test-deploy:
+  ci:
     name: Build, Test, Lint & Deploy
     runs-on: ubuntu-latest
 
